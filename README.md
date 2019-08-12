@@ -17,7 +17,6 @@ APIs.
 - You will need to pass the same instance of ThreadedExpressionEvaluator to two
 different threads A and B. Thread A will invoke operand() while thread B will 
 invoke operator(). 
-
 - Complete the class such that when the program is run, 
 it generates and accumulates one operator and one operand into an 
 expression repeatedly until a kill signal is encountered (Ctrl + C). 
@@ -25,7 +24,6 @@ At any time, the generated expression has to be of the form [OPERAND OPERATOR
  OPERAND OPERATOR OPERAND . . .]. When the kill is encountered, the expression
   needs to be evaluated. If the expression has a trailing OPERATOR when it is 
   stopped, **that** operator alone can be discarded.
-
 - Add unit tests to test your program thoroughly.
 - Explain time and space complexity in the complexity.txt file under resources.
 
@@ -49,5 +47,4 @@ Zip the maven project with your solution in its whole and submit to the HR.
 - Correct result for getExpression() and getResult(). 
 - Unit tests added
 - Clean coding + adequate comments for core logic
-- Usability : kill signal handling.
 - Correct time and space complexity.
