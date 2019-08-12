@@ -43,7 +43,7 @@ extending your class to test it.
 Zip the maven project with your solution in its whole and submit to the HR.
 
 ## Order of evaluation
-- Compile, Build, Executable JAR using maven.
+- Compile, Build, Executable JAR using maven (along with clean handling of Ctrl + C).
 - Correct result for getExpression() and getResult(). 
 - Unit tests added
 - Clean coding + adequate comments for core logic
