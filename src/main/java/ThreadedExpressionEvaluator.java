@@ -49,8 +49,8 @@ public class ThreadedExpressionEvaluator {
 
     /**
      * You will need to pass the same instance of ThreadedExpressionEvaluator to
-     * two different threads A and B. Thread A will invoke operator() while
-     * thread B will invoke operand().
+     * two different threads A and B. Thread A will invoke operand() while
+     * thread B will invoke operator().
      */
 
     System.out.println("Expression : " + obj.getExpression());
