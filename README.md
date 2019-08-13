@@ -35,9 +35,6 @@ generated.
 **Note :**
 - Do not modify the existing method signatures since we will be 
 extending your class to test it. 
-- There should be a space between 2 tokens in the expression. 
-  - Correct -> 57 * 82 * 40 + 26 + 15
-  - Wrong -> 57\*82\*40+26+15
 
 ## How to submit
 Zip the maven project with your solution in its whole and submit to the HR.
